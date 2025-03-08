@@ -223,13 +223,13 @@ def real_time_detection(model):
 
 if __name__ == "__main__":
     # Full workflow
-    #setup_directories()
+    setup_directories()
     
     # Step 1: Collect data
-    #collect_keypoints()
+    collect_keypoints()
     
     # Step 2: Train model
-    #train_model()
+    train_model()
     
     # Step 3: Run detection
     model = load_model('action.h5')
